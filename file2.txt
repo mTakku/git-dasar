@@ -1,1 +1,2 @@
 file2.txt
+membuat baris 2 di file2
