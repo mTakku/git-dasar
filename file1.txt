@@ -2,3 +2,5 @@ file1.txt
 membuat baris 2 di file1
 Feature 1
 Feature A
+Feature B
+
