@@ -3,3 +3,4 @@ membuat baris 2 di file2
 Feature 2
 Feature A
 Feature Rebase
+Feature Merge Squash

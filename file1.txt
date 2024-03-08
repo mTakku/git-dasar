@@ -6,3 +6,4 @@ Feature B
 Feature C
 master
 master
+Feature Merge Squash
