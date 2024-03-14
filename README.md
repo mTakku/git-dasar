@@ -101,7 +101,7 @@ i) git blame
    
    a. Saya suka memakai git reset --hard jike terjadi error pada codingan
 
-4. Kesimpulan
+3. Kesimpulan
 
     GIT adalah alat yang sangat penting dan bermanfaat bagi pengembang perangkat lunak untuk mengelola 
     proyek mereka dengan efisien. Dengan kemampuannya yang kuat dalam version control, 
