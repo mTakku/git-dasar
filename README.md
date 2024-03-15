@@ -25,11 +25,11 @@
   
      - Setelah inisialisasi, sebuah folder baru bernama .git akan dibuat untuk menyimpan data repositori. Hindari memodifikasi konten folder ini.
   
-     - Git mengikuti alur kerja tiga langkah: modified, staged, dan committed. File dimodifikasi di working directory, staging untuk commit, lalu dicommit          ke repositori.
+     - Git mengikuti alur kerja tiga langkah: modified, staged, dan committed. File dimodifikasi di working directory, staging untuk commit, lalu dicommit ke repositori.
   
      - Git menggunakan penunjuk yang disebut "head" untuk menunjukkan commit terakhir dalam repositori.
   
-     - Setelah perubahan dicommit, tidak ada cara langsung untuk membatalkannya, pilihannya seperti rollback, reset, atau revert, masing-masing dengan              implikasi yang berbeda.
+     - Setelah perubahan dicommit, tidak ada cara langsung untuk membatalkannya, pilihannya seperti rollback, reset, atau revert, masing-masing dengan implikasi yang berbeda.
   
      - Mengganti nama file di Git dapat dideteksi sebagai operasi penghapusan dan penambahan. Git mendeteksi kemiripan dalam konten file untuk             
         mengidentifikasi penggantian nama secara akurat.
@@ -88,9 +88,9 @@
 
 ### **E) amend commit**
 ```
- - Git menyediakan perintah "git commit --amend" untuk menambahkan perubahan secara otomatis pada snapshot terakhir, menggabungkannya dengan perubahan          pada commit sebelumnya.
+ - Git menyediakan perintah "git commit --amend" untuk menambahkan perubahan secara otomatis pada snapshot terakhir, menggabungkannya dengan perubahan pada commit sebelumnya.
  
- - Menggunakan "git commit --amend" memungkinkan untuk menambahkan perubahan pada commit sebelumnya tanpa membuat commit baru, menyederhanakan prosesnya        dibandingkan dengan mengatur ulang dan melakukan commit ulang.
+ - Menggunakan "git commit --amend" memungkinkan untuk menambahkan perubahan pada commit sebelumnya tanpa membuat commit baru, menyederhanakan prosesnya dibandingkan dengan mengatur ulang dan melakukan commit ulang.
  
  - Ketika menggunakan "git commit --amend", bahkan menambahkan satu karakter pun akan secara otomatis mengubah konten dan tanda tangan snapshot.
 ```
@@ -109,7 +109,7 @@
 
 ### **G) git revert**
 ```
- - Fitur "git revert" dari Git memungkinkan untuk membatalkan commit sebelumnya dengan membuat commit baru dengan perubahan yang berlawanan dengan perubahan    yang dikembalikan.
+ - Fitur "git revert" dari Git memungkinkan untuk membatalkan commit sebelumnya dengan membuat commit baru dengan perubahan yang berlawanan dengan perubahan yang dikembalikan.
  
  - Tidak seperti reset, git revert tidak menghapus riwayat tetapi membuat commit baru yang membalikkan perubahan yang dibuat oleh commit sebelumnya.
  
@@ -119,13 +119,13 @@
 ---
 ### **H).gitignore**
 ```
- - File .gitignore memungkinkan Anda menentukan file atau directory mana yang harus diabaikan oleh Git, berguna untuk mengecualikan file yang dibuat, log,      atau jenis file tertentu dari kontrol versi.
+ - File .gitignore memungkinkan Anda menentukan file atau directory mana yang harus diabaikan oleh Git, berguna untuk mengecualikan file yang dibuat, log, atau jenis file tertentu dari kontrol versi.
 ```
 ---
 
 ### **I) git blame**
 ```
- - Perintah "git blame" Git membantu melacak siapa yang membuat perubahan pada sebuah file dan kapan, memberikan tampilan terperinci tentang kepengarangan      setiap baris dan komit terkait.
+ - Perintah "git blame" Git membantu melacak siapa yang membuat perubahan pada sebuah file dan kapan, memberikan tampilan terperinci tentang kepengarangan setiap baris dan komit terkait.
 ```
 ---
 
