@@ -7,15 +7,16 @@
 ---
    
 ## **A. Apa itu git?**
- ```
-    - Git, yang diciptakan oleh Linus Torvalds pada tahun 2005, menjadi populer karena
+
+ >    Git, yang diciptakan oleh Linus Torvalds pada tahun 2005, menjadi populer karena
       sifatnya yang terdistribusi dan fleksibilitasnya, terutama dalam proyek-proyek sumber
       terbuka yang kolaboratif.
- ```
+ 
 ---
+
 ## **B. Cara Kerja git**
 
-
+---
  
 ### A) **Cara membuat repository git**
   ```
@@ -129,20 +130,17 @@
 ---
 
 # **2. Pertanyaan dan catatan tambahan**
-   ```
 
-  a. Saya suka memakai git reset --hard jika terjadi error pada codingan
-
-   ```
+ > a. Saya suka memakai git reset --hard jika terjadi error pada codingan
+   
 
 --- 
 
 # **3. Kesimpulan**
- ```
-    GIT adalah alat yang sangat penting dan bermanfaat bagi pengembang perangkat lunak untuk mengelola 
+ >  GIT adalah alat yang sangat penting dan bermanfaat bagi pengembang perangkat lunak untuk mengelola 
     proyek mereka dengan efisien. Dengan kemampuannya yang kuat dalam version control, 
     kolaborasi, dan branching, GIT sangat membantu dalam proses pengembangan perangkat lunak yang kompleks.
-```
+
 
  
  
